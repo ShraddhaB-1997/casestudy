@@ -1,0 +1,121 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login to the application",
+        "description": "",
+        "id": "testme-application;login-to-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 856600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the credentials",
+            "match": {
+              "location": "demo3_specificScenario.user_enters_the_credentials()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Search the product",
+        "description": "",
+        "id": "testme-application;search-the-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 224000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the product name on serach bar which is to be searched",
+            "match": {
+              "location": "demo3_specificScenario.user_enters_the_product_name_on_serach_bar_which_is_to_be_searched()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Add to cart",
+        "description": "",
+        "id": "testme-application;add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 136800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user adds the product to the cart",
+            "match": {
+              "location": "demo3_specificScenario.user_adds_the_product_to_the_cart()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Add"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "payment",
+        "description": "",
+        "id": "testme-application;payment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 111900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user makes the payment",
+            "match": {
+              "location": "demo3_specificScenario.user_makes_the_payment()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Payment"
+          }
+        ]
+      }
+    ],
+    "name": "TestMe Application",
+    "description": "",
+    "id": "testme-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/featurefile4.feature",
+    "tags": []
+  }
+]
